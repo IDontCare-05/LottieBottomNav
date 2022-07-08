@@ -1,8 +1,8 @@
 package com.wwdablu.soumya.lottiebottomnav;
 
 public interface ILottieBottomNavCallback {
-    void onMenuSelected(int oldIndex, int newIndex, MenuItem menuItem);
-    void onAnimationStart(int index, MenuItem menuItem);
-    void onAnimationEnd(int index, MenuItem menuItem);
-    void onAnimationCancel(int index, MenuItem menuItem);
+    void onMenuSelected(int oldIndex, int newIndex, MenuItemLot menuItemLot);
+    void onAnimationStart(int index, MenuItemLot menuItemLot);
+    void onAnimationEnd(int index, MenuItemLot menuItemLot);
+    void onAnimationCancel(int index, MenuItemLot menuItemLot);
 }
